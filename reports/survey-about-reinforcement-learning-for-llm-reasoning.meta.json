@@ -1,0 +1,27 @@
+{
+  "topic": "survey about reinforcement learning for LLM reasoning",
+  "model": "qwen/qwen3.7-flash",
+  "elapsed_s": 415.4,
+  "subagent_calls": 7,
+  "tool_calls": {
+    "write_todos": 7,
+    "ls": 3,
+    "task": 7,
+    "read_file": 10,
+    "write_file": 4,
+    "verify_sources": 4,
+    "grep": 7,
+    "execute": 5
+  },
+  "tokens": {
+    "input": 924723,
+    "output": 22186
+  },
+  "n_sources": 42,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

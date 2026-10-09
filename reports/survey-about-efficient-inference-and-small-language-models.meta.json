@@ -1,0 +1,28 @@
+{
+  "topic": "survey about efficient inference and small language models",
+  "model": "qwen/qwen3.7-flash",
+  "elapsed_s": 292.7,
+  "subagent_calls": 6,
+  "tool_calls": {
+    "write_todos": 7,
+    "ls": 2,
+    "read_file": 9,
+    "task": 6,
+    "write_file": 4,
+    "verify_sources": 6,
+    "execute": 4,
+    "edit_file": 3,
+    "grep": 1
+  },
+  "tokens": {
+    "input": 874143,
+    "output": 16357
+  },
+  "n_sources": 23,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

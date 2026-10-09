@@ -1,0 +1,25 @@
+{
+  "topic": "survey about video and multimodal generation",
+  "model": "qwen/qwen3.7-flash",
+  "elapsed_s": 632.7,
+  "subagent_calls": 6,
+  "tool_calls": {
+    "write_todos": 7,
+    "ls": 1,
+    "execute": 13,
+    "task": 6,
+    "read_file": 16,
+    "write_file": 6,
+    "verify_sources": 4
+  },
+  "tokens": {
+    "input": 1609961,
+    "output": 35825
+  },
+  "n_sources": 10,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ]
+}

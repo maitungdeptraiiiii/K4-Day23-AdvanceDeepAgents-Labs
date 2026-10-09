@@ -1,0 +1,26 @@
+{
+  "topic": "survey about world model",
+  "model": "qwen/qwen3.7-flash",
+  "elapsed_s": 391.0,
+  "subagent_calls": 7,
+  "tool_calls": {
+    "write_todos": 7,
+    "ls": 2,
+    "read_file": 16,
+    "task": 7,
+    "write_file": 5,
+    "verify_sources": 6,
+    "edit_file": 2,
+    "execute": 6
+  },
+  "tokens": {
+    "input": 1421472,
+    "output": 27078
+  },
+  "n_sources": 43,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ]
+}

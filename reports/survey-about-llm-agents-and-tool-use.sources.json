@@ -1,0 +1,394 @@
+[
+  {
+    "n": 1,
+    "id": "2210.03629",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "date": "2022-10-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2303.17651",
+    "url": "https://arxiv.org/abs/2303.17651",
+    "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+    "date": "2023-03-30",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2305.04091",
+    "url": "https://arxiv.org/abs/2305.04091",
+    "title": "Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning",
+    "date": "2023-05-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "mcp-anthropic",
+    "url": "https://www.anthropic.com/news/model-context-protocol",
+    "title": "Model Context Protocol (MCP) — Anthropic",
+    "date": "2024-11-25",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2503.13657",
+    "url": "https://arxiv.org/abs/2503.13657",
+    "title": "Why Do Multi-Agent LLM Systems Fail? (MAST Study)",
+    "date": "2025-03-18",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "illusion-mas",
+    "url": "https://multi-agent-eval.github.io/",
+    "title": "The Illusion of Multi-Agent Advantage",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "langchain-report",
+    "url": "https://www.langchain.com/stateofaiagents",
+    "title": "State of AI Agents Report 2024",
+    "date": "2024-06-12",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2603.04474",
+    "url": "https://huggingface.co/papers/2603.04474",
+    "title": "From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration",
+    "date": "2026-03-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2308.09687",
+    "url": "https://arxiv.org/abs/2308.09687",
+    "title": "Graph of Thoughts: Solving Elaborate Problems with Large Language Models",
+    "date": "2023-08-18",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "agentic-history-autogpt",
+    "url": "https://blog.agentichistory.org/was-autogpt-really-the-first-ai-agent-a-source-reconstruction/",
+    "title": "Was AutoGPT Really the First AI Agent? A Source Reconstruction",
+    "date": "2023-03-30",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "langchain-agents-roundup",
+    "url": "https://www.langchain.com/blog/agents-round",
+    "title": "Autonomous Agents & Agent Simulations — LangChain Blog Roundup",
+    "date": "2023-04-19",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2304.08244",
+    "url": "https://arxiv.org/abs/2304.08244",
+    "title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+    "date": "2023-04-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2609.34971",
+    "url": "https://arxiv.org/abs/2609.34971",
+    "title": "Action-Space Shaping for LLM Agents: Measuring and Mitigating Tool-Schema Bias",
+    "date": "2026-09-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "id": "2307.16789",
+    "url": "https://arxiv.org/abs/2307.16789",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+    "date": "2023-07-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 15,
+    "id": "2609.22218",
+    "url": "https://arxiv.org/abs/2609.22218",
+    "title": "Toollery: Scaling LLM Agents to Thousands of Skills and Tools",
+    "date": "2026-09-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 16,
+    "id": "2610.03894",
+    "url": "https://arxiv.org/abs/2610.03894",
+    "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+    "date": "2026-10-02",
+    "source": "arxiv"
+  },
+  {
+    "n": 17,
+    "id": "2410.20007",
+    "url": "https://huggingface.co/papers/2410.20007",
+    "title": "Cooperative Strategic Planning Enhances Reasoning Capabilities in Large Language Models",
+    "date": "2024-10-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "10.1038/s43588-025-00849-y",
+    "url": "https://www.nature.com/articles/s43588-025-00849-y",
+    "title": "SciToolAgent: a knowledge-graph-driven scientific agent for multitool integration",
+    "date": "2025-08-20",
+    "source": "web"
+  },
+  {
+    "n": 19,
+    "id": "2607.03953",
+    "url": "https://arxiv.org/abs/2607.03953",
+    "title": "The Remarkable Effectiveness of Providing AI Agents with Natural Language Tools",
+    "date": "2026-07-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 20,
+    "id": "2606.25819",
+    "url": "https://huggingface.co/papers/2606.25819",
+    "title": "Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability",
+    "date": "2026-06-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 21,
+    "id": "2605.27995",
+    "url": "https://huggingface.co/papers/2605.27995",
+    "title": "AsyncTool: Evaluating the Asynchronous Function Calling Capability under Multi-Task Scenarios",
+    "date": "2026-05-27",
+    "source": "hf-search"
+  },
+  {
+    "n": 22,
+    "id": "2604.11557",
+    "url": "https://huggingface.co/papers/2604.11557",
+    "title": "UniToolCall: Unifying Tool-Use Representation, Data, and Evaluation for LLM Agents",
+    "date": "2026-04-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 23,
+    "id": "2502.08820",
+    "url": "https://huggingface.co/papers/2502.08820",
+    "title": "CALM: A Unified Conversational Agentic Language Model",
+    "date": "2025-02-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 24,
+    "id": "2308.08155",
+    "url": "https://arxiv.org/abs/2308.08155",
+    "title": "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation",
+    "date": "2023-08-16",
+    "source": "arxiv"
+  },
+  {
+    "n": 25,
+    "id": "2308.00352",
+    "url": "https://arxiv.org/abs/2308.00352",
+    "title": "MetaGPT: Meta Programming for a Multi-Agent Collaborative Framework",
+    "date": "2023-08-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 26,
+    "id": "2604.18005",
+    "url": "https://huggingface.co/papers/2604.18005",
+    "title": "Diversity Collapse in Multi-Agent LLM Systems: Structural Coupling and Collective Failure in Open-Ended Idea Generation",
+    "date": "2026-04-21",
+    "source": "hf-search"
+  },
+  {
+    "n": 27,
+    "id": "2405.03862",
+    "url": "https://huggingface.co/papers/2405.03862",
+    "title": "Persona Inconstancy in Multi-Agent LLM Collaboration: Conformity, Confabulation, and Impersonation",
+    "date": "2024-05-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 28,
+    "id": "2507.15003",
+    "url": "https://arxiv.org/abs/2507.15003",
+    "title": "The Rise of AI Teammates in Software Engineering 3.0",
+    "date": "2025-07-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 29,
+    "id": "debate-or-vote",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/934252acd87f254d5d4672fbde283bd2-Paper-Conference.pdf",
+    "title": "Debate or Vote: Which Yields Better Decisions in Multi-Agent Large Language Models?",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 30,
+    "id": "2604.26275",
+    "url": "https://arxiv.org/abs/2604.26275",
+    "title": "Agentic AI in the Software Development Lifecycle: Architecture, Empirical Evidence, and the Reshaping of Software Engineering",
+    "date": "2026-04-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 31,
+    "id": "menlo-2025",
+    "url": "https://menlovc.com/perspective/2025-mid-year-llm-market-update/",
+    "title": "2025 Mid-Year LLM Market Update",
+    "date": "2025-07-31",
+    "source": "web"
+  },
+  {
+    "n": 32,
+    "id": "2510.12399",
+    "url": "https://huggingface.co/papers/2510.12399",
+    "title": "A Survey of Vibe Coding with Large Language Models",
+    "date": "2025-10-14",
+    "source": "hf-daily"
+  },
+  {
+    "n": 33,
+    "id": "2410.06992",
+    "url": "https://www.alphaxiv.org/abs/2410.06992",
+    "title": "SWE-Bench+: Enhanced Coding Benchmark for LLMs",
+    "date": "2024-10-10",
+    "source": "web"
+  },
+  {
+    "n": 34,
+    "id": "jacs.4c17738",
+    "url": "https://pubs.acs.org/doi/10.1021/jacs.4c17738",
+    "title": "A Multiagent-Driven Robotic AI Chemist Enabling Autonomous Chemical Research On Demand",
+    "date": "2025-03-08",
+    "source": "web"
+  },
+  {
+    "n": 35,
+    "id": "2602.20867",
+    "url": "https://huggingface.co/papers/2602.20867",
+    "title": "SoK: Agentic Skills — Beyond Tool Use in LLM Agents",
+    "date": "2026-02-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 36,
+    "id": "gaia-benchmark",
+    "url": "https://hal.cs.princeton.edu/gaia",
+    "title": "GAIA Benchmark",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 37,
+    "id": "mcp-code-exec",
+    "url": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+    "title": "Code Execution with MCP: Building More Efficient AI Agents",
+    "date": "2025-11-04",
+    "source": "web"
+  },
+  {
+    "n": 38,
+    "id": "2610.08951",
+    "url": "https://arxiv.org/abs/2610.08951",
+    "title": "Agentic Safety & Prompt Injection Red-teaming Engine (ASPIRE)",
+    "date": "2026-10-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 39,
+    "id": "2609.22712",
+    "url": "https://arxiv.org/abs/2609.22712",
+    "title": "Trustworthy Agentic AI: Failure Modes, Mitigation Strategies, and a Lifecycle Framework",
+    "date": "2026-09-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 40,
+    "id": "2609.30217",
+    "url": "https://arxiv.org/abs/2609.30217",
+    "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+    "date": "2026-09-24",
+    "source": "arxiv"
+  },
+  {
+    "n": 41,
+    "id": "2608.27092",
+    "url": "https://arxiv.org/abs/2608.27092",
+    "title": "Framing Gap: Indirect Prompt-Injection Exfiltration Defeats Surface-Level Defenses",
+    "date": "2026-08-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 42,
+    "id": "2502.14847",
+    "url": "https://huggingface.co/papers/2502.14847",
+    "title": "Red-Teaming LLM Multi-Agent Systems via Communication Attacks",
+    "date": "2025-02-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 43,
+    "id": "2503.16416",
+    "url": "https://arxiv.org/abs/2503.16416",
+    "title": "Survey on Evaluation of LLM-based Agents",
+    "date": "2025-03-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 44,
+    "id": "2603.07670",
+    "url": "https://huggingface.co/papers/2603.07670",
+    "title": "Memory for Autonomous LLM Agents: Mechanisms, Evaluation, and Emerging Frontiers",
+    "date": "2026-03-08",
+    "source": "hf-search"
+  },
+  {
+    "n": 45,
+    "id": "2602.12430",
+    "url": "https://huggingface.co/papers/2602.12430",
+    "title": "Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward",
+    "date": "2026-02-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 46,
+    "id": "2510.20036",
+    "url": "https://huggingface.co/papers/2510.20036",
+    "title": "ToolScope: Enhancing LLM Agent Tool Use through Tool Merging and Context-Aware Filtering",
+    "date": "2026-05-08",
+    "source": "hf-search"
+  },
+  {
+    "n": 47,
+    "id": "2602.21320",
+    "url": "https://huggingface.co/papers/2602.21320",
+    "title": "Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data",
+    "date": "2026-02-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 48,
+    "id": "2606.05670",
+    "url": "https://huggingface.co/papers/2606.05670",
+    "title": "Do More Agents Help? Controlled and Protocol-Aligned Evaluation",
+    "date": "2026-06-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 49,
+    "id": "2605.11928",
+    "url": "https://huggingface.co/papers/2605.11928",
+    "title": "When Simulation Lies: A Sim-to-Real Benchmark and Domain-Randomized RL Recipe for Tool-Use Agents",
+    "date": "2026-05-12",
+    "source": "hf-search"
+  }
+]

@@ -4,6 +4,56 @@ Lab dựng một **hệ thống deep research đa tác tử**: người dùng ch
 
 Hình thức: **bài thực hành cá nhân**. Ngôn ngữ lập trình: Python 3.11 trở lên.
 
+## 0. Bài nộp: cách cài đặt, chạy và đọc kết quả
+
+**Cài đặt** (Python 3.11+, Docker đang chạy nếu dùng sandbox Docker):
+
+```bash
+python -m venv .venv
+source .venv/bin/activate            # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+cp .env.example .env                 # điền khóa của bạn
+```
+
+Cấu hình đã dùng để sinh `reports/` (xem `.env.example`, không commit `.env`):
+
+```
+LAB_BASE_URL=https://openrouter.ai/api/v1    # OpenRouter (endpoint tương thích OpenAI)
+LAB_MODEL=qwen/qwen3.7-flash
+LAB_API_KEY=<khóa OpenRouter>
+LAB_REASONING_OFF=1                           # tắt reasoning của model: nhanh hơn ~3 lần, vẫn gọi công cụ song song
+SANDBOX=docker                                # container python:3.12-slim, không có mạng
+EXA_API_KEY=<khóa Exa>                        # web search
+```
+
+`LAB_REASONING_OFF` do `research.py` xử lý (không sửa `model.py`); bỏ biến này nếu dùng model không có reasoning.
+Mỗi chủ đề chạy khoảng 5-10 phút; `research.py` in một dòng cho mỗi lần gọi công cụ để theo dõi tiến độ.
+
+**Chạy**:
+
+```bash
+python tools.py                                   # thử riêng 5 công cụ nguồn dữ liệu (gọi mạng thật)
+python research.py "survey about world model"     # một chủ đề -> reports/<slug>.*
+python check_citations.py reports/<slug>.md reports/<slug>.sources.json   # in "OK: N sources, ..."
+python self_check.py                              # kiểm tra cả 5 chủ đề + bí mật trong git (không tốn token)
+pip install pytest && pytest -q tests             # test offline: retry, slugify, validator, công cụ
+```
+
+**Đọc `reports/`**: mỗi chủ đề có ba tệp cùng `<slug>`:
+
+| Tệp | Nội dung |
+|---|---|
+| `<slug>.md` | Báo cáo survey (TL;DR, Background, các chủ đề, Trends and open problems, References). Mỗi `[n]` trỏ tới dòng `[n]` trong `## References`. |
+| `<slug>.sources.json` | Danh sách nguồn `{n, id, url, title, date, source}`; `source` là công cụ đã tìm ra nguồn (`arxiv`, `hf-daily`, `hf-search`, `web`). |
+| `<slug>.meta.json` | Bằng chứng của lần chạy: mô hình, thời gian, `subagent_calls`, số lần gọi từng công cụ của lead, token của lead, `n_sources`, `source_families`. |
+
+Các tệp `.md` và `.sources.json` là đúng bản tải về từ sandbox (không sửa tay).
+
+**Thiết kế chính**: `tools.py` (retry có backoff + jitter + `Retry-After`; phát hiện giới hạn tốc độ của Exa qua
+`result._meta`; che khóa trong thông báo lỗi; arXiv cách nhau ≥ 3 s, kể cả khi các researcher chạy song song),
+`agents.py` (lead + `researcher` + `citation-checker`, mỗi agent có `ModelCallLimitMiddleware`/`ToolCallLimitMiddleware`
+riêng), `research.py` (`recursion_limit` có chủ ý; chạy hỏng thì thoát mã 1 và không ghi gì vào `reports/`).
+
 ## 1. Mục tiêu học tập
 
 Sau lab, bạn có thể:

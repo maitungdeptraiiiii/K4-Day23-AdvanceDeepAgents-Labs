@@ -1,0 +1,329 @@
+[
+  {
+    "n": 1,
+    "id": "2501.12948",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "date": "2025-01-22",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2402.03300",
+    "url": "https://arxiv.org/abs/2402.03300",
+    "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning",
+    "date": "2024-04-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2506.14245",
+    "url": "https://arxiv.org/abs/2506.14245",
+    "title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+    "date": "2025-06-18",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2410.15115",
+    "url": "https://arxiv.org/abs/2410.15115",
+    "title": "On Designing Effective RL Reward at Training Time for LLM Reasoning",
+    "date": "2024-10-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "verl-project/verl",
+    "url": "https://github.com/verl-project/verl",
+    "title": "veRL: Volcano Engine Reinforcement Learning for LLMs",
+    "date": "2025",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2408.03314",
+    "url": "https://arxiv.org/abs/2408.03314",
+    "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+    "date": "2024-08-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "url": "https://papers.nips.cc/paper_files/paper/2025/hash/537d5aa768c2d534016a4d06f87bc8fb-Abstract-Conference.html",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "date": "2025",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2305.18290",
+    "url": "https://arxiv.org/abs/2305.18290",
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "date": "2023-05-29",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "url": "https://openai.com/index/learning-to-reason-with-llms/",
+    "title": "Learning to Reason with LLMs — OpenAI o1 Blog Post",
+    "date": "2024-09-12",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "url": "https://arxiv.org/html/2412.16720v1",
+    "title": "OpenAI o1 System Card",
+    "date": "2024-12-01",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2506.15050",
+    "url": "https://arxiv.org/abs/2506.15050",
+    "title": "Truncated Proximal Policy Optimization",
+    "date": "2025-06-18",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "2408.06195",
+    "url": "https://arxiv.org/abs/2408.06195",
+    "title": "Mutual Reasoning Makes Smaller LLMs Stronger Problem-Solvers (rStar)",
+    "date": "2024-08-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2310.10505",
+    "url": "https://arxiv.org/abs/2310.10505",
+    "title": "ReMax: A Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models",
+    "date": "2023-10-16",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "url": "https://github.com/huggingface/blog/blob/main/putting_rl_back_in_rlhf_with_rloo.md",
+    "title": "REINFORCE Leave-One-Out (RLOO) — Hugging Face Blog",
+    "date": "2024",
+    "source": "web"
+  },
+  {
+    "n": 15,
+    "id": "2502.06773",
+    "url": "https://arxiv.org/abs/2502.06773",
+    "title": "On the Emergence of Thinking in LLMs I: Searching for the Right Intuition — RL via Self-Play",
+    "date": "2025-02-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 16,
+    "id": "deepseek-ai/DeepSeek-R1",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1/?tab=readme-ov-file",
+    "title": "deepseek-ai/DeepSeek-R1 — GitHub Repository",
+    "date": "2025-01-20",
+    "source": "web"
+  },
+  {
+    "n": 17,
+    "id": "2505.01441",
+    "url": "https://arxiv.org/abs/2505.01441",
+    "title": "ARTIST: Agentic Reasoning and Tool Integration for LLMs",
+    "date": "2025-05-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 18,
+    "id": "2507.23726",
+    "url": "https://arxiv.org/abs/2507.23726",
+    "title": "Seed-Prover: Deep and Broad Reasoning for Automated Theorem Proving",
+    "date": "2025-07-31",
+    "source": "arxiv"
+  },
+  {
+    "n": 19,
+    "id": "2505.24230",
+    "url": "https://arxiv.org/abs/2505.24230",
+    "title": "ProofNet++: A Neuro-Symbolic System for Formal Proof Verification with Self-Correction",
+    "date": "2025-05-30",
+    "source": "arxiv"
+  },
+  {
+    "n": 20,
+    "id": "2506.07047",
+    "url": "https://huggingface.co/papers/2506.07047",
+    "title": "Mathesis: Towards Formal Theorem Proving from Natural Languages",
+    "date": "2025-06-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 21,
+    "id": "2506.08672",
+    "url": "https://huggingface.co/papers/2506.08672",
+    "title": "RuleReasoner: Reinforced Rule-based Reasoning via Domain-aware Dynamic Sampling",
+    "date": "2025-06-10",
+    "source": "hf-daily"
+  },
+  {
+    "n": 22,
+    "id": "2509.08827",
+    "url": "https://huggingface.co/papers/2509.08827",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "date": "2025-09-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 23,
+    "url": "https://huggingface.co/blog/async-rl-training-landscape",
+    "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries for LLMs",
+    "date": "2026-03-10",
+    "source": "web"
+  },
+  {
+    "n": 24,
+    "id": "2503.04548",
+    "url": "https://huggingface.co/papers/2503.04548",
+    "title": "An Empirical Study on Eliciting and Improving R1-like Reasoning Models",
+    "date": "2025-03-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 25,
+    "url": "https://www.anyscale.com/blog/open-source-rl-libraries-for-llms",
+    "title": "Open Source RL Libraries for LLMs — Architecture Comparison",
+    "date": "2025-07-01",
+    "source": "web"
+  },
+  {
+    "n": 26,
+    "id": "2606.18967",
+    "url": "https://arxiv.org/abs/2606.18967",
+    "title": "EfficientRollout: System-Aware Self-Speculative Decoding for RL Rollouts",
+    "date": "2026-06-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 27,
+    "id": "2503.19855",
+    "url": "https://arxiv.org/abs/2503.19855",
+    "title": "Think Twice: Enhancing LLM Reasoning by Scaling Multi-round Test-time Thinking",
+    "date": "2025-03-25",
+    "source": "arxiv"
+  },
+  {
+    "n": 28,
+    "id": "2506.07240",
+    "url": "https://huggingface.co/papers/2506.07240",
+    "title": "Overclocking LLM Reasoning: Monitoring and Controlling Thinking Path Lengths in LLMs",
+    "date": "2025-06-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 29,
+    "id": "2505.21178",
+    "url": "https://arxiv.org/abs/2505.21178",
+    "title": "Walk Before You Run! Concise LLM Reasoning via Reinforcement Learning",
+    "date": "2025-05-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 30,
+    "id": "2410.08146",
+    "url": "https://arxiv.org/abs/2410.08146",
+    "title": "Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning",
+    "date": "2024-10-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 31,
+    "url": "https://arxiv.org/html/2511.23476v1",
+    "title": "WMAct: Thinking by Doing — Building Efficient World Model Reasoning in LLMs",
+    "date": "2025-11-01",
+    "source": "web"
+  },
+  {
+    "n": 32,
+    "id": "2506.07976",
+    "url": "https://huggingface.co/papers/2506.07976",
+    "title": "Thinking vs. Doing: Agents that Reason by Scaling Test-Time Interaction",
+    "date": "2025-06-09",
+    "source": "hf-daily"
+  },
+  {
+    "n": 33,
+    "id": "2506.08011",
+    "url": "https://huggingface.co/papers/2506.08011",
+    "title": "Play to Generalize: Learning to Reason Through Game Play",
+    "date": "2025-06-09",
+    "source": "hf-daily"
+  },
+  {
+    "n": 34,
+    "id": "2412.16339",
+    "url": "https://arxiv.org/abs/2412.16339",
+    "title": "Deliberative Alignment: Reasoning Enables Safer Language Models",
+    "date": "2025-01-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 35,
+    "url": "https://arxiv.org/html/2503.00555v1",
+    "title": "Safety Tax: Safety Alignment Makes Your Large Reasoning Models Less Capable",
+    "date": "2025-03-01",
+    "source": "web"
+  },
+  {
+    "n": 36,
+    "id": "2610.04158",
+    "url": "https://arxiv.org/abs/2610.04158",
+    "title": "How RL Reshapes LLM Reasoning: Transferability, Coverage, and Scaling Laws",
+    "date": "2026-10-03",
+    "source": "arxiv"
+  },
+  {
+    "n": 37,
+    "id": "2506.06941",
+    "url": "https://huggingface.co/papers/2506.06941",
+    "title": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
+    "date": "2025-06-07",
+    "source": "hf-daily"
+  },
+  {
+    "n": 38,
+    "url": "https://arxiv.org/html/2509.08814v1",
+    "title": "Merge-of-Thought Distillation (MoT)",
+    "date": "2025-09-01",
+    "source": "web"
+  },
+  {
+    "n": 39,
+    "id": "2506.07712",
+    "url": "https://huggingface.co/papers/2506.07712",
+    "title": "Through the Valley: Path to Effective Long CoT Training for Small Language Models",
+    "date": "2025-06-09",
+    "source": "hf-daily"
+  },
+  {
+    "n": 40,
+    "id": "2605.28699",
+    "url": "https://arxiv.org/abs/2605.28699",
+    "title": "TRACER: Turn-level Regret Matching with Inner Reinforcement Credit for Cooperative Multi-LLM Reasoning",
+    "date": "2026-05-27",
+    "source": "arxiv"
+  },
+  {
+    "n": 41,
+    "id": "2506.08007",
+    "url": "https://huggingface.co/papers/2506.08007",
+    "title": "Reinforcement Pre-Training",
+    "date": "2025-06-09",
+    "source": "hf-daily"
+  },
+  {
+    "n": 42,
+    "id": "2506.10910",
+    "url": "https://huggingface.co/papers/2506.10910",
+    "title": "Magistral",
+    "date": "2025-06-12",
+    "source": "hf-daily"
+  }
+]
